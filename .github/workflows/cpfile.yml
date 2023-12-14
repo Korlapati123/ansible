@@ -1,0 +1,7 @@
+---
+- name: copy file 
+  hosts: databases
+  tasks: 
+    -   
+          name: "send one file databses"
+          copy: src=/etc/ansible/hosts dest=/home/db2inst1
